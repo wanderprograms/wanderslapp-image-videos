@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.hidden {
+  display: none;
+}
+
+.auth-container, .dashboard {
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}       
+ 
+.switch {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switch span {
+  color: #0984e3;
+  cursor: pointer;
+  font-weight: bold;
+}
+ 
+
+.top-bar {
+  background: #333;
+  padding: 10px;
+  text-align: right;
+}
+
+nav {
+  background: #222;
+  padding: 10px;
+  color: white;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links button {
+  margin: 5px;
+  background: #444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.mediaSection {
+  padding: 20px;
+}
+
+.media-card {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.media-card img,
+.media-card video {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.meta {
+  margin-top: 10px;
+}

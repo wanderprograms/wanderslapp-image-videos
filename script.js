@@ -19,7 +19,7 @@ const db = firebase.firestore();
 
 // ✅ ImageKit config
 const imagekitPublicKey = "public_9iOwyXje/HcKKnLaJQrrrdf2R0o=";
-const imagekitUploadUrl = "https://upload.imagekit.io/api/v1/files/upload";
+const imagekitUploadUrl = "https://ik.imagekit.io/wio2rlawfv";
 
 // 🔐 Manual login only
 loginBtn.onclick = () => {

@@ -15,6 +15,7 @@ const db = firebase.firestore();
 // ✅ ImageKit config
 const imagekitPublicKey = "public_9iOwyXje/HcKKnLaJQrrrdf2R0o=";
 urlEndpoint="https://ik.imagekit.io/wio2rlawfv"
+transformationPosition="path"
 const imagekitUploadUrl = "https://upload.imagekit.io/api/v1/files/upload";
 
 // ✅ Debug helper
